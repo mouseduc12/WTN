@@ -1,0 +1,104 @@
+.symbols-container {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 100%;
+    box-sizing: content-box;
+    background-color: rgba(1,1,1,1);
+    color: rgba(255,255,255,1);
+}
+.stock-symbols {
+    overflow: hidden;
+    display: inline-block;
+    white-space: normal;
+    padding-right: 100%;
+    white-space: nowrap;
+    box-sizing: content-box;
+    animation: stock-moves;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes stock-moves {
+    from {
+        transform: translate3d(0 0 0);
+        visibility: visible
+    }
+    to {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+.stock-down{
+    color:red;
+    font-size: 25px
+}
+.stock-up{
+    color: green;
+    font-size: 25px
+}
+.market-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-datas{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.big-stock-overviews{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    background: rgba(1,1,1,0.1);
+    height: 200px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ticker-names{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ticker-prices{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.modal{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(1,1,1,0.7);
+    color: white;
+    animation: move;
+    animation-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes move{
+    from{
+        width: 0%;
+        opacity: 0
+    } to {
+        width: 30%;
+        opacity: 0.8
+    }
+}
+.modal button{
+    float: right;
+    color: black;
+    border: none;
+    font-weight: bold;
+    background: rgba(255,255,255,0.7)
+}
+.modal h2{
+    color: #22aadd;
+    font-size: 20px;
+    font-family: "Open Sans"
+}
+.sign-up{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}

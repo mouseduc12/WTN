@@ -1,0 +1,105 @@
+.company-logo{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto auto;
+    border-radius: 12px;
+}
+.big-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  
+}
+.company-container{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(255,255,255,0.5);
+}
+.company-info{
+    grid-column: 1/-1;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid silver;
+}
+.company-quotes{
+    font-size: 15px;
+    height: auto;
+    width: 80%;
+}
+.company-stats{
+    margin-top: 20px;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px
+}
+.stat-1{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+}
+.each-stat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+.each-stat h3{
+    line-height: 40px;
+    color: #2077B6;
+}
+.each-stat p{
+    font-weight: bold;
+    font-size: 15px;
+}
+.stat-2{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+.company-related-news{
+    margin-top: 30px;
+    width: 85%;
+}
+.earning{
+    display: flex;
+    grid-column: 1/-1;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+.toogle-company{
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+.toogle-company button{
+    margin-right: 25px;
+    border: none;
+    font-size: 20px;
+    color: #2077B6;
+}
+.toogle-company button:hover{
+    color: darkcyan;
+}
+.financial-holds{
+    margin: 50px 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background: whitesmoke;
+}
+.check-each-quater button{
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: rgba(255,255,255,0.1)
+}

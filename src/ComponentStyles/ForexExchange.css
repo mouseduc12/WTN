@@ -1,0 +1,25 @@
+.forex-exchange{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.first-column-exchange{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.first-column-exchange h2{
+    font-size: 18px;
+    line-height: 40px;
+    color: #2077B6;
+}
+.second-column-exchange{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.forex-exchange h3{
+    font-size: 15px;
+    line-height: 40px;   
+}

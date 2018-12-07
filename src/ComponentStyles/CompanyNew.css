@@ -1,0 +1,26 @@
+.company-news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.related-company-author{
+    width: 78%;
+}
+.related-company-author h2{
+    color: #2077B6;
+    font-size: 20px;
+}
+.new-for-company{
+    width: 240px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.company-news-author{
+    display: flex;
+}
+.company-news-author p{
+    color:#2077B6;
+    margin-right: 5px;
+}

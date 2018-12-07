@@ -1,0 +1,25 @@
+.financial-statements{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    width: 23%;
+}
+div.money{
+    display: flex;
+    justify-content: space-between;
+}
+div.money h2{
+    font-size: 18px;
+    color: #2077B6;
+    line-height: 35px;
+}
+div.money h3{
+    font-size: 15px;
+    line-height: 35px;
+}
+.report-date{
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+.category-img{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.display-source-author {
+    display: flex;
+    flex-wrap: wrap;   
+}
+.display-source-author p {
+    color: darkblue;
+}
+.check-author{
+    display: flex;   
+}
+.check-author .dashed{
+    margin: 10px 5px
+}
+.categories h2{
+    font-family: "Roboto"
+}
