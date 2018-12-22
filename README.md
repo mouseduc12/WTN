@@ -1,3 +1,5 @@
+Updated: Finished Responsive website
+
 //Third Personal API Projects:
 Washington Time News is a webstie that allows user to check the price of stock, news, information of that stock and etc...
 I learned how to use REACT.Context, integrated 4 different APIs and most importantly was the beautiful of D3 visualization(probably will learn it in the future)

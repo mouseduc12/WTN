@@ -25,14 +25,12 @@ class News extends React.Component {
 
     componentDidMount() {
         axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${process.env.REACT_APP_NEW_API}`).then(res => {
-            console.log(res);
             const news = res.data.articles
             this.setState({
                 news
             })
         })
         axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=${process.env.REACT_APP_NEW_API}`).then(res => {
-            console.log(res.data.articles)
             const general = res.data.articles.slice(0, 5)
             this.setState({
                 general

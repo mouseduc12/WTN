@@ -8,7 +8,7 @@ class NewCategory extends React.Component {
                 {this.props.find === 0 ?
                     <div className="categories">
                         <h2>{this.props.category}:</h2>
-                        <a href={this.props.link} target="_blank">
+                        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                             <div style={{ backgroundImage: `url(${this.props.image})` }} className="category-img"></div>
                             <p>{this.props.title}</p>
                             <div className="display-source-author">
@@ -27,7 +27,7 @@ class NewCategory extends React.Component {
                     </div>
                     :
                     <div className="categories">
-                        <a href={this.props.link} target="_blank">
+                        <a href={this.props.link} target="_blank" rel="noopener noreferrer"> 
                             <p>{this.props.title}</p>
                             <div className="display-source-author">
                                 <p>{this.props.source}</p>

@@ -35,7 +35,6 @@ class ProvideStockInfos extends React.Component{
             mm = '0' + mm
         }
         today = mm + '/' + dd + '/' + yyyy;
-        console.log(today);
         return(
             <Provider value = {{
                 stockSymbol: this.state.stockSymbol,

@@ -47,7 +47,6 @@ class Header extends React.Component {
     }
 
     render() {
-        console.log(this.state.modalIsOpen)
         let dataArray = []
         for (let each in this.state.largestData) {
             dataArray.push(this.state.largestData[each])

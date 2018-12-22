@@ -16,7 +16,7 @@ class Nav extends React.Component {
     }
 
     handleSize = () =>{
-        console.log(window.innerWidth)
+
     }
 
     render() {

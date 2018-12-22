@@ -13,7 +13,7 @@ const New = (props) => {
         <Fragment>
             {props.image &&
                 <div className={generateFirstImage()}>
-                    <a href={props.link} target="_blank">
+                    <a href={props.link} target="_blank" rel="noopener noreferrer">
                         <div className="inside-headlines">
                             <div style={{ backgroundImage: `url(${props.image})` }} className="headline-content-images">
                             </div>

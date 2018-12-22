@@ -18,6 +18,3 @@ const ForexExchange = (props) => {
 }
 
 export default ForexExchange
- {/* {props.Changes(0) === "-" ?
-                    <h3 className="stock-down">{parseFloat((each.ChangesPerc) * 100).toFixed(2)}%</h3>
-                    : <h3 className="stock-up">{parseFloat((each.ChangesPerc) * 100).toFixed(2)}%</h3>}  */}
