@@ -35,7 +35,6 @@ class Header extends React.Component {
         })
     }
     openModal = () => {
-        console.log("I'm working")
         this.setState({
             modalIsOpen: true
         })
@@ -57,6 +56,7 @@ class Header extends React.Component {
             <div>
                 <Nav openModal={this.openModal} />
                 <Modal
+                    ariaHideApp={false}
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
                     onRequestClose={this.closeModal}

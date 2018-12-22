@@ -71,7 +71,7 @@
     background-color: rgba(1,1,1,0.7);
     color: white;
     animation: move;
-    animation-duration: 5s;
+    animation-duration: 1s;
     transition-timing-function: ease-in-out;
 }
 @keyframes move{
@@ -85,15 +85,18 @@
 }
 .modal button{
     float: right;
-    color: black;
+    color: white;
+    font-size: 18px;
+    background: black;
     border: none;
     font-weight: bold;
-    background: rgba(255,255,255,0.7)
+    background: transparent
 }
 .modal h2{
     color: #22aadd;
     font-size: 20px;
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+    cursor: pointer;
 }
 .sign-up{
     display: flex;
@@ -101,4 +104,77 @@
     flex-direction: column;
     align-items: center;
     height: 30%;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+    .big-stock-overviews h1{
+        font-size: 20px;
+    }
+    .big-stock-overviews h2{
+        font-size: 18px;
+    }
+    .big-stock-overviews{
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 560px){
+    .brand h2{
+        font-size: 35px;
+    }
+    .more p{
+        font-size: 18px;
+    }
+    .big-stock-overviews h1{
+        font-size: 15px;
+    }
+    .big-stock-overviews h2{
+        font-size: 12px;
+    }
+    .big-stock-overviews .stock-up{
+        font-size: 13px;
+    }
+    .big-stock-overviews .stock-down{
+        font-size: 13px;
+    }
+    .big-stock-overviews{
+        height: 110px;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 426px){
+    .big-stock-overviews h1{
+        font-size: 11px;
+    }
+    .big-stock-overviews h2{
+        font-size: 10px;
+    }
+    .big-stock-overviews .stock-up{
+        font-size: 10px;
+    }
+    .big-stock-overviews .stock-down{
+        font-size: 10px;
+    }
+    .big-stock-overviews{
+        height: 100px;
+    }
+}
+
+@media (max-width: 425px){
+    .big-stock-overviews h1{
+        font-size: 8px;
+    }
+    .big-stock-overviews h2{
+        font-size: 7px;
+    }
+    .big-stock-overviews .stock-up{
+        font-size: 7px;
+    }
+    .big-stock-overviews .stock-down{
+        font-size: 7px;
+    }
+    .big-stock-overviews{
+        height: 80px;
+    }
 }
