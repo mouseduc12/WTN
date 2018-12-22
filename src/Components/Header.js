@@ -34,6 +34,7 @@ class Header extends React.Component {
 
         })
     }
+
     openModal = () => {
         this.setState({
             modalIsOpen: true

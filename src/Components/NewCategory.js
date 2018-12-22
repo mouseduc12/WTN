@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "../ComponentStyles/NewCategory.css"
 
 class NewCategory extends React.Component {

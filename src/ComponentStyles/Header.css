@@ -1,5 +1,4 @@
 .symbols-container {
-    width: 100%;
     overflow: hidden;
     padding-left: 100%;
     box-sizing: content-box;
@@ -123,6 +122,9 @@
     .brand h2{
         font-size: 35px;
     }
+    .search input{
+        width: 125px;
+    }
     .more p{
         font-size: 18px;
     }
@@ -140,6 +142,15 @@
     }
     .big-stock-overviews{
         height: 110px;
+    }
+    .symbol h3{
+        font-size: 15px;
+    }
+    .symbol .stock-down{
+        font-size: 15px;
+    }
+    .symbol .stock-up{
+        font-size: 15px;
     }
 }
 
@@ -159,6 +170,24 @@
     .big-stock-overviews{
         height: 100px;
     }
+    .symbol h3{
+        font-size: 12px;
+    }
+    .symbol .stock-down{
+        font-size: 12px;
+    }
+    .symbol .stock-up{
+        font-size: 12px;
+    }
+    .brand h2{
+        font-size: 30px;
+    }
+    .search input{
+        width: 125px;
+    }
+    .more p{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 425px){
@@ -176,5 +205,23 @@
     }
     .big-stock-overviews{
         height: 80px;
+    }
+    .symbol h3{
+        font-size: 12px;
+    }
+    .symbol .stock-down{
+        font-size: 12px;
+    }
+    .symbol .stock-up{
+        font-size: 12px;
+    }
+    .brand h2{
+        font-size: 23px;
+    }
+    .search input{
+        width: 100px;
+    }
+    .more p{
+        font-size: 15px;
     }
 }

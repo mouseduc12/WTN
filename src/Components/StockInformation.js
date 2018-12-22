@@ -85,27 +85,27 @@ class StockInformation extends React.Component {
     handleClick = () => {
         this.setState(prevState => {
             return {
-                checkFinance: this.state.checkFinance = true,
-                checkInfo: this.state.checkInfo = false
+                checkFinance: true,
+                checkInfo:false
             }
         })
     }
     handleClickCompany = () => {
         this.setState(prevState => {
             return {
-                checkFinance: this.state.checkFinance = false,
-                checkInfo: this.state.checkInfo = true,
+                checkFinance:false,
+                checkInfo:true,
             }
         })
     }
     handleCheckAnnual = () => {
         this.setState({
-            checkQuarter: this.state.checkQuarter = false
+            checkQuarter: false
         })
     }
     handleCheckQuarter = () => {
         this.setState({
-            checkQuarter: this.state.checkQuarter = true
+            checkQuarter:true
         })
     }
 
