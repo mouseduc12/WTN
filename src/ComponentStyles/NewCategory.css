@@ -21,3 +21,90 @@
 .categories h2{
     font-family: "Roboto"
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .category-news p{
+        font-size: 18px
+    }
+}
+
+@media (max-width: 768px) and (min-width: 560px) {
+    .category-news p{
+        font-size: 13px
+    }
+    .categories h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 426px) {
+    .category-news{
+        width: 100%
+    }
+    .general{
+        width: 100%;
+        margin: 30px
+    }
+    .health{
+        width: 100%;
+        margin: 30px
+    }
+    .science{
+        width: 100%;
+        margin: 30px
+    }
+    .sports{
+        width: 100%;
+        margin: 30px
+    }
+    .technology{
+        width: 100%;
+        margin: 30px
+    }
+    .entertainment{
+        width: 100%;
+        margin: 30px
+    }
+    .category-news p{
+        font-size: 13px
+    }
+    .categories h2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .category-news{
+        width: 100%
+    }
+    .general{
+        width: 100%;
+        margin-top: 30px
+    }
+    .health{
+        width: 100%;
+        margin-top: 30px
+    }
+    .science{
+        width: 100%;
+        margin-top: 30px
+    }
+    .sports{
+        width: 100%;
+        margin-top: 30px
+    }
+    .technology{
+        width: 100%;
+        margin-top: 30px
+    }
+    .entertainment{
+        width: 100%;
+        margin-top: 30px
+    }
+    .category-news p{
+        font-size: 13px
+    }
+    .categories h2{
+        font-size: 18px;
+    }
+}
