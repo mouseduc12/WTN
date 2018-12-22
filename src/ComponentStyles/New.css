@@ -49,3 +49,15 @@
     grid-row: 1/-1;
     margin-left: 50px;
 }
+
+@media (max-width: 560px) and (min-width: 426px) {
+    .stock-sections{
+       margin-left: 0
+    }
+}
+
+@media (max-width: 425px) {
+    .stock-sections{
+        margin-left: 0
+     }
+}   

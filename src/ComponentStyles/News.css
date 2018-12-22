@@ -22,85 +22,102 @@
     height: 90px;
     margin-top: 50px;
 }
-.category-news{
+
+.category-news {
     width: 85%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-   
+
 }
+
 .category-news p {
     color: #2077B6;
     margin: 10px 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-.general{
+
+.general {
     width: 31%;
     margin: 30px 0;
 }
-.health{
+
+.health {
     width: 31%;
     margin: 30px 0;
 }
-.science{
+
+.science {
     width: 31%;
     margin: 30px 0;
 }
-.sports{
+
+.sports {
     width: 31%;
     margin: 30px 0;
 }
-.technology{
+
+.technology {
     width: 31%;
     margin: 30px 0;
 }
-.entertainment{
+
+.entertainment {
     width: 31%;
     margin: 30px 0;
 }
-.individual-stock{
+
+.individual-stock {
     display: flex;
     justify-content: space-between;
     background: whitesmoke;
 }
-.individual-stock h2{
+
+.individual-stock h2 {
     font-size: 17px;
     line-height: 40px;
     color: #2077B6
 }
-.individual-stock h3{
+
+.individual-stock h3 {
     font-size: 15px;
     line-height: 40px;
 }
-.first-column-stocks{
+
+.first-column-stocks {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
 }
-.second-column-stocks{
+
+.second-column-stocks {
     display: flex;
     justify-content: space-between;
     width: 30%;
 }
-.active-stocks .stock-perfomance{
+
+.active-stocks .stock-perfomance {
     border-bottom: 1px solid black;
     margin-bottom: 10px;
     color: #2077B6;
     font-size: 20px;
 }
-.stock-sections{
+
+.stock-sections {
     display: grid;
-    grid-template-rows: auto auto 2fr 2fr 1fr; 
+    grid-template-rows: auto auto 2fr 2fr 1fr;
     grid-gap: 20px
 }
-.like-us{
+
+.like-us {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.take-advice{
+
+.take-advice {
     width: 150px;
     height: 150px;
     background-image: url("https://js.skyscnr.com/sttc/blackbird/static/media/price_alerts.f270f520.svg");
@@ -108,59 +125,70 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.take-advice-sign-up{
+
+.take-advice-sign-up {
     margin-top: 50px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-   
+
 }
-.take-advice-sign-up input{
+
+.take-advice-sign-up input {
     height: 20px;
     font-size: 18px;
 }
-.forex-exchange-container{
+
+.forex-exchange-container {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
 }
-.forex-exchange-container .exchange-performance{
+
+.forex-exchange-container .exchange-performance {
     color: #2077B6;
     border-bottom: 1px solid #2077B6;
     margin-bottom: 20px;
     font-size: 20px;
 }
-.sectors{
+
+.sectors {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin: 50px 0;
 }
-.sectors-performance{
+
+.sectors-performance {
     display: flex;
     justify-content: space-between;
     background: whitesmoke;
 }
-.sectors-performance h2{
+
+.sectors-performance h2 {
     color: #2077B6;
     font-size: 18px;
     line-height: 40px;
 }
-.sectors-performance h3{
+
+.sectors-performance h3 {
     font-size: 15px;
     line-height: 40px
 }
-.sectors-h2{
+
+.sectors-h2 {
     color: #2077B6;
     font-size: 20px;
     border-bottom: 1px solid #2077B6
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: center;
 }
-.banner-img{
+
+.banner-img {
     background-image: url("https://1si.org/app/uploads/2016/01/banner-placeholder.jpg");
     background-position: center;
     background-size: cover;
@@ -168,4 +196,124 @@
     margin-top: 100px;
     width: 80%;
     height: 800px;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .business-news {
+        grid-template-columns: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 560px) {
+    .business-news {
+        grid-template-columns: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        display: none;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 426px) {
+    .take-advice{
+        width: 100px;
+        height: 100px;
+    }
+    .take-advice-sign-up h3{
+        font-size: 15px;
+    }
+    .advertising-image{
+        width: 100%;
+    }
+    .business-news {
+        grid-template-columns: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-author h3{
+        font-size: 13px;
+        margin: 5px 0;
+    }
+    .source-author{
+        font-size: 11px;
+    }
+    .source-author p {
+        margin-right: 1px;
+    }
+    .banner{
+        display: none;
+    }
+    .individual-stock h3 {
+        font-size: 13px;
+    }
+    .individual-stock h2{
+        font-size: 15px
+    }
+    .sectors-performance h2{
+        font-size: 15px;
+    }
+    .sectors-performance h3{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 425px) {
+    .take-advice{
+        width: 100px;
+        height: 100px;
+    }
+    .take-advice-sign-up h3{
+        font-size: 15px;
+    }
+    .advertising-image{
+        width: 100%;
+    }
+    .business-news {
+        grid-template-columns: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-author h3{
+        font-size: 10px;
+        margin: 5px 0;
+    }
+    .source-author{
+        font-size: 8px;
+    }
+    .source-author p {
+        margin-right: 0;
+    }
+    .banner{
+        display: none;
+    }
+    .individual-stock h3 {
+        font-size: 10px;
+    }
+    .individual-stock h2{
+        font-size: 12px
+    }
+    .forex-exchange-container .exchange-performance{
+        font-size: 15px;
+    }
+    .sectors-h2{
+        font-size: 15px;
+    }
+    .headline-content-images{
+        width: 160px;
+        height: 100px;
+    }
+    .sectors-performance h2{
+        font-size: 12px;
+    }
+    .sectors-performance h3{
+        font-size: 9px;
+    }
 }

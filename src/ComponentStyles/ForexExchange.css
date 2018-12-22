@@ -1,25 +1,46 @@
-.forex-exchange{
+.forex-exchange {
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;
 }
-.first-column-exchange{
+
+.first-column-exchange {
     display: flex;
     justify-content: space-between;
     width: 50%;
 }
-.first-column-exchange h2{
+
+.first-column-exchange h2 {
     font-size: 18px;
     line-height: 40px;
     color: #2077B6;
 }
-.second-column-exchange{
+
+.second-column-exchange {
     display: flex;
     justify-content: space-between;
     width: 40%;
 }
 
-.forex-exchange h3{
+.forex-exchange h3 {
     font-size: 15px;
-    line-height: 40px;   
+    line-height: 40px;
+}
+
+@media (max-width: 560px) and (min-width: 426px) {
+    .forex-exchange h3 {
+        font-size: 13px;
+    }
+    .first-column-exchange h2{
+        font-size: 15px
+    }
+}
+
+@media (max-width: 425px) {
+    .forex-exchange h3 {
+        font-size: 10px;
+    }
+    .first-column-exchange h2{
+        font-size: 12px
+    }
 }
