@@ -2,6 +2,7 @@
 Washington Time News is a webstie that allows user to check the price of stock, news, information of that stock and etc...
 I learned how to use REACT.Context, integrated 4 different APIs and most importantly was the beautiful of D3 visualization(probably will learn it in the future)
 
+//Because it's a free API so everything will be delayed 15minutes to 1 day.
 //The website is not responsive, the chart is not completed and sometime bug with the image.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
