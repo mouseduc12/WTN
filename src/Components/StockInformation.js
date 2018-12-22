@@ -263,7 +263,7 @@ class StockInformation extends React.Component {
                                     <Chart chart = {this.state.chart}/>
                                 </div>
                             </div>
-                            <h2 style={{ textAlign: "center", color: "#2077B6", gridColumn: "1/-1", marginTop: 40 }}>Earnings:</h2>
+                            <h2 className = "earning-h2">Earnings:</h2>
                             <div className="earning">
                                 {this.state.earnings.map(each => <Earning {...each} />)}
                             </div>

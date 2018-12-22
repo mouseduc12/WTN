@@ -7,6 +7,10 @@
     margin: auto auto;
     border-radius: 12px;
 }
+.charts{
+    height: 300px;
+    width: 300px
+}
 .big-container{
     display: flex;
     flex-direction: column;
@@ -74,6 +78,12 @@
     flex-direction: row-reverse;
     margin-top: 30px;
 }
+.earning-h2{
+    text-align: center;
+    color: rgb(32, 119, 182);
+    grid-column: 1 / -1;
+    margin-top: 40px;
+}
 .toogle-company{
     width: 85%;
     display: flex;
@@ -102,4 +112,128 @@
     border-radius: 5px;
     border: 2px solid black;
     background: rgba(255,255,255,0.1)
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+    .company-quotes h2{
+        font-size: 18px
+    }
+    .company-quotes h3{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .each-stat h3{
+        font-size: 15px;
+    }
+    .quarter h2{
+        font-size: 15px;
+    }
+    .report-date h2{
+        font-size: 15px;
+    }
+    .each-earning-block h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 560px){
+    .toogle-company button{
+        font-size: 18px;
+    }
+    .company-quotes h2{
+        font-size: 18px
+    }
+    .company-quotes h3{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .each-stat h3{
+        font-size: 12px;
+    }
+    .each-stat p{
+        font-size: 10px
+    }
+    .quarter h2{
+        font-size: 12px;
+    }
+    .report-date h2{
+        font-size: 12px;
+    }
+    .earning-h2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 426px){
+    .company-container{
+        width: 100%;
+    }
+    .toogle-company{
+        width: 100%;
+    }
+    .toogle-company button{
+        font-size: 15px;
+    }
+    .company-quotes h2{
+        font-size: 15px
+    }
+    .company-quotes h3{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .each-stat h3{
+        font-size: 10px;
+    }
+    .each-stat p{
+        font-size: 8px
+    }
+    .quarter h2{
+        font-size: 12px;
+    }
+    .report-date h2{
+        font-size: 12px;
+    }
+    .earning-h2{
+        font-size: 15px;
+    }
+    .chart-container{
+        width: 200px;
+    }
+}
+
+@media (max-width: 425px){
+    .company-container{
+        width: 100%;
+    }
+    .toogle-company{
+        width: 100%;
+    }
+    .toogle-company button{
+        font-size: 15px;
+    }
+    .company-quotes h2{
+        font-size: 13px
+    }
+    .company-quotes h3{
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .each-stat h3{
+        font-size: 9px;
+    }
+    .each-stat p{
+        font-size: 7px
+    }
+    .quarter h2{
+        font-size: 9px;
+    }
+    .report-date h2{
+        font-size: 9px;
+    }
+    .earning-h2{
+        font-size: 15px;
+    }
+    .chart-container{
+        width: auto
+    }
 }

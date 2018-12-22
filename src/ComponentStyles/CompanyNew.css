@@ -24,3 +24,60 @@
     color:#2077B6;
     margin-right: 5px;
 }
+
+@media (max-width: 1024px) and (min-width: 769px){
+   .new-for-company{
+       width:25%;
+   }
+   .related-company-author{
+       width: 73%
+   }
+}
+
+@media (max-width: 768px) and (min-width: 560px){
+    .new-for-company{
+        width:25%;
+    }
+    .related-company-author{
+        width: 70%
+    }
+    .related-company-author h2{
+        font-size: 15px
+    }
+    .company-news-author p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 560px) and (min-width: 426px){
+    .new-for-company{
+        width:25%;
+    }
+    .related-company-author{
+        width: 70%
+    }
+    .related-company-author h2{
+        font-size: 15px
+    }
+    .company-news-author p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .new-for-company{
+        width: 50%;
+    }
+    .related-company-author{
+        width: 45%
+    }
+    .related-company-author h2{
+        font-size: 10px
+    }
+    .company-news-author p{
+        font-size: 7px;
+        margin-top: 10px;
+    }
+}

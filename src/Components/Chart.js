@@ -11,8 +11,8 @@ class Chart extends Component {
         }
     });
     return (
-      <div className="chart">
-        <XYPlot height={300} width={300}>
+      <div className="chart-container">
+        <XYPlot height={250} width={100} className ="charts">
           <LineSeries data={data} />
         </XYPlot>
       </div>
